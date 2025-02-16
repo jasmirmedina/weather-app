@@ -1,3 +1,5 @@
 import "./index.css";
 
-import "./scripts/create-icons";
+import createIcon from "./scripts/create-icons";
+
+createIcon();
