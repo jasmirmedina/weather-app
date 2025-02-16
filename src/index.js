@@ -1,7 +1,7 @@
 import "./index.css";
 
-import domInit from "./scripts/dom-init";
 import createIcon from "./scripts/create-icons";
+import initial from "./scripts/initial";
 
-domInit();
 createIcon();
+initial();
