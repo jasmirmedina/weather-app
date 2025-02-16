@@ -1,1 +1,19 @@
 @import url(minireset.css);
+
+@import url(./styles/app.css);
+@import url(./styles/search-bar.css);
+@import url(./styles/main.css);
+
+* {
+  font-family: system-ui;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/images/bg.webp);
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}

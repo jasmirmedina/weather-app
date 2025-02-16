@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.city-country-name {
+  font-size: 1.4rem;
+}
+
+.place-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.latitude-longitude {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.temperature {
+  position: relative;
+  padding-right: 20px;
+  font-size: 3.5rem;
+}
+
+.temperature span {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+}
+
+.weather-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.weather-info > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 20px;
+  background-color: rgba(29, 29, 29, 0.1);
+  padding: 20px;
+}
+
+.quote {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+.weather-info > div > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.weather-info > div > div:first-child > p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.weather-info > div > p {
+  font-size: 1.3rem;
+}
