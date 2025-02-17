@@ -1,5 +1,6 @@
 .app {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 18px;
   backdrop-filter: blur(30px);

@@ -1,5 +1,6 @@
 import getWeatherData from "./get-weather-data";
 import quotes from "./quotes";
+import loader from "./loader";
 
 export const cityCountryName = document.querySelector(".city-country-name");
 export const latitudeLongitude = document.querySelector(".latitude-longitude");
@@ -13,7 +14,11 @@ export const windDirectionValue = document.querySelector(
 );
 
 export default async function initial() {
+  loader();
+
   const geoData = await getWeatherData("León, Nicaragua");
+
+  loader();
 
   cityCountryName.textContent = `${geoData.name}, ${geoData.country}`;
   latitudeLongitude.textContent = `${geoData.weatherData.latitude}° N, ${geoData.weatherData.longitude}° W`;

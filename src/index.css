@@ -3,6 +3,7 @@
 @import url(./styles/app.css);
 @import url(./styles/search-bar.css);
 @import url(./styles/main.css);
+@import url(./styles/loader.css);
 
 * {
   font-family: system-ui;
