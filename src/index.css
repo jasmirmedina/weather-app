@@ -5,8 +5,18 @@
 @import url(./styles/main.css);
 @import url(./styles/loader.css);
 
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("../assets/fonts/subset-Geist-Regular.woff2") format("woff2"),
+    url("../assets/fonts/subset-Geist-Regular.woff") format("woff");
+  font-family: "Geist";
+  font-display: swap;
+}
+
 * {
-  font-family: system-ui;
+  font-family: "Geist", system-ui;
 }
 
 body {
